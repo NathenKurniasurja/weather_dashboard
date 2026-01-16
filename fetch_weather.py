@@ -48,9 +48,7 @@ V_kmh = current['windspeed']            # Wind km/h
 V_ms = V_kmh / 3.6                      # Convert to m/s
 
 # Find matching RH for current_weather time
-current_time = current['time']
-hour_index = data['hourly']['time'].index(current_time)
-RH = data['hourly']['relativehumidity_2m'][hour_index]
+RH = data['hourly']['relativehumidity_2m'][0]
 
 # --- Decide which formula to use --- #
 if Ta <= 10:
