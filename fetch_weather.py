@@ -1,18 +1,17 @@
 import requests
 import json
-from datetime import datetime, timedelta
+from math import exp
 
 # Replace with your city
 city_name = "Melbourne"
-lat = "-37.8136"  
-lon = "144.9631"  
+lat = "-37.8136"
+lon = "144.9631"
 
-# Open-Meteo API request
 url = (
     "https://api.open-meteo.com/v1/forecast"
     f"?latitude={lat}&longitude={lon}"
     "&current_weather=true"
-    "&hourly=temperature_2m,weathercode,precipitation,uv_index"
+    "&hourly=temperature_2m,weathercode,precipitation,uv_index,windspeed_10m,relativehumidity_2m"
     "&daily=sunset"
     "&forecast_hours=12"
     "&timezone=auto"
@@ -21,37 +20,43 @@ url = (
 response = requests.get(url)
 data = response.json()
 
-# Build 12-hour forecast entries
-forecast_12h = []
-hourly = data["hourly"]
+current = data['current_weather']
+Ta = current['temperature']           # Ambient temp °C
+omega = current['windspeed'] / 3.6    # Convert km/h to m/s (if Open-Meteo gives km/h)
+RH = data['hourly']['relativehumidity_2m'][0]  # Use current hour
 
-for i in range(12):
-    forecast_12h.append({
-        "time": hourly["time"][i],
-        "temperature": hourly["temperature_2m"][i],
-        "weather_code": hourly["weathercode"][i],
-        "precipitation_mm": hourly["precipitation"][i],
-        "uv_index": hourly["uv_index"][i]
-    })
+# Water vapor pressure (hPa)
+rho = (RH / 100) * 6.105 * exp((17.27 * Ta) / (237.7 + Ta))
 
-current_temp = data["current_weather"]["temperature"]
-current_windspeed = data["current_weather"]["windspeed"]
-current_condition = data["current_weather"]["weathercode"]
-today_sunset = data["daily"]["sunset"][0]
+# Apparent temperature (feels like)
+feels_like = round(Ta + 0.33*rho - 0.7*omega - 4, 1)
 
-# Final weather object
+# Build JSON
 weather_data = {
     "city": city_name,
-    "current_temp": current_temp,
-    "current_windspeed": current_windspeed,
-    "current_condition": current_condition,
-    "today_sunset": today_sunset,
-    "forecast_12h": forecast_12h
+    "current_temp": Ta,
+    "current_windspeed": current['windspeed'],
+    "current_condition": current['weathercode'],
+    "feels_like": feels_like,
+    "today_sunset": data['daily']['sunset'][0],
+    "forecast_12h": [
+        {
+            "time": t,
+            "temperature": temp,
+            "precipitation_mm": prec,
+            "uv_index": uv
+        }
+        for t, temp, prec, uv in zip(
+            data['hourly']['time'],
+            data['hourly']['temperature_2m'],
+            data['hourly']['precipitation'],
+            data['hourly']['uv_index']
+        )
+    ]
 }
 
-# Write JSON to GitHub Pages data folder
-filename = city_name.lower().replace(" ", "_")
-with open(f"data/{filename}.json", "w") as f:
+# Write JSON
+with open(f"data/{city_name.lower().replace(' ','_')}.json", "w") as f:
     json.dump(weather_data, f, indent=2)
 
-print(f"Weather data for {city_name} updated.")
+print(f"Weather data for {city_name} updated with Apparent Temperature.")
