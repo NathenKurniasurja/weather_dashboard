@@ -1,9 +1,9 @@
 {
   "city": "Melbourne",
-  "current_temp": 22.3,
+  "current_temp": 22.5,
   "current_windspeed": 23.8,
   "current_condition": 3,
-  "feels_like": 18.9,
+  "feels_like": 24.6,
   "today_sunset": "2026-01-16T20:43",
   "forecast_12h": [
     {
