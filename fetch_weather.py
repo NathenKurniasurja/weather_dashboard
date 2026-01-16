@@ -2,7 +2,29 @@ import requests
 import json
 from math import exp
 
-# Replace with your city
+# --- Functions to calculate feels like --- #
+
+def wind_chill(T, V_kmh):
+    """Wind Chill formula (for Ta <= 10°C)"""
+    return 13.12 + 0.6215*T - 11.37*V_kmh**0.16 + 0.3965*T*V_kmh**0.16
+
+def heat_index(T, RH):
+    """Heat Index formula (for Ta >= 20°C and RH >= 40%)"""
+    HI = (-8.784695 + 1.61139411*T + 2.338549*RH 
+          - 0.14611605*T*RH - 0.012308094*T**2 
+          - 0.016424828*RH**2 + 0.002211732*T**2*RH 
+          + 0.00072546*T*RH**2 - 0.000003582*T**2*RH**2)
+    return HI
+
+def apparent_temperature(T, RH, V_ms):
+    """Australian Apparent Temperature"""
+    # water vapor pressure
+    rho = (RH / 100) * 6.105 * exp((17.27*T) / (237.7 + T))
+    AT = T + 0.33*rho - 0.7*V_ms - 4
+    return AT
+
+# --- Fetch data --- #
+
 city_name = "Melbourne"
 lat = "-37.8136"
 lon = "144.9631"
@@ -21,21 +43,28 @@ response = requests.get(url)
 data = response.json()
 
 current = data['current_weather']
-Ta = current['temperature']           # Ambient temp °C
-omega = current['windspeed'] / 3.6    # Convert km/h to m/s (if Open-Meteo gives km/h)
-RH = data['hourly']['relativehumidity_2m'][0]  # Use current hour
+Ta = current['temperature']             # Ambient temp °C
+V_kmh = current['windspeed']            # Wind km/h
+V_ms = V_kmh / 3.6                      # Convert to m/s
 
-# Water vapor pressure (hPa)
-rho = (RH / 100) * 6.105 * exp((17.27 * Ta) / (237.7 + Ta))
+# Find matching RH for current_weather time
+current_time = current['time']
+hour_index = data['hourly']['time'].index(current_time)
+RH = data['hourly']['relativehumidity_2m'][hour_index]
 
-# Apparent temperature (feels like)
-feels_like = round(Ta + 0.33*rho - 0.7*omega - 4, 1)
+# --- Decide which formula to use --- #
+if Ta <= 10:
+    feels_like = round(wind_chill(Ta, V_kmh), 1)
+elif Ta >= 20 and RH >= 40:
+    feels_like = round(heat_index(Ta, RH), 1)
+else:
+    feels_like = round(apparent_temperature(Ta, RH, V_ms), 1)
 
-# Build JSON
+# --- Build JSON --- #
 weather_data = {
     "city": city_name,
     "current_temp": Ta,
-    "current_windspeed": current['windspeed'],
+    "current_windspeed": V_kmh,
     "current_condition": current['weathercode'],
     "feels_like": feels_like,
     "today_sunset": data['daily']['sunset'][0],
@@ -55,8 +84,8 @@ weather_data = {
     ]
 }
 
-# Write JSON
+# --- Write JSON --- #
 with open(f"data/{city_name.lower().replace(' ','_')}.json", "w") as f:
     json.dump(weather_data, f, indent=2)
 
-print(f"Weather data for {city_name} updated with Apparent Temperature.")
+print(f"Weather data for {city_name} updated with correct 'feels like'.")
