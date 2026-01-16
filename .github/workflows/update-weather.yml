@@ -1,38 +1,40 @@
 name: Update Weather Data
 
-# Trigger: every 15 minutes + manual
 on:
   schedule:
-    - cron: '*/15 * * * *'  # every 15 minutes
-  workflow_dispatch:        # manual trigger
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
 
 jobs:
   update-weather:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout repo
       - uses: actions/checkout@v3
+        with:
+          ref: main
+          persist-credentials: true
 
-      # Set up Python
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
-      # Install dependencies
       - name: Install dependencies
         run: pip install requests
 
-      # Run the weather fetch script
       - name: Fetch weather
         run: python fetch_weather.py
 
-      # Commit and push JSON files
-      - name: Commit and push
+      - name: Configure git
         run: |
-          git config --local user.name "github-actions"
-          git config --local user.email "actions@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit changes
+        run: |
           git add data/*.json
-          git commit -m "Update weather data"
-          git push
+          git diff-index --quiet HEAD || git commit -m "Update weather data"
+
+      - name: Push changes
+        run: git push origin main
