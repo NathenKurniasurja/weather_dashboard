@@ -13,6 +13,7 @@ url = (
     f"?latitude={lat}&longitude={lon}"
     "&current_weather=true"
     "&hourly=temperature_2m,weathercode,precipitation,uv_index"
+    "&daily=sunset"
     "&forecast_hours=12"
     "&timezone=auto"
 )
@@ -33,10 +34,18 @@ for i in range(12):
         "uv_index": hourly["uv_index"][i]
     })
 
+current_temp = data["current_weather"]["temperature"]
+current_windspeed = data["current_weather"]["windspeed"]
+current_condition = data["current_weather"]["weathercode"]
+today_sunset = data["daily"]["sunset"][0]
+
 # Final weather object
 weather_data = {
     "city": city_name,
-    "current": data["current_weather"],
+    "current_temp": current_temp,
+    "current_windspeed": current_windspeed,
+    "current_condition": current_condition,
+    "today_sunset": today_sunset,
     "forecast_12h": forecast_12h
 }
 
