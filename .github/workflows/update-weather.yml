@@ -1,40 +1,48 @@
 name: Update Weather Data
 
+# Trigger: every 15 minutes + manual
 on:
   schedule:
-    - cron: '*/15 * * * *'
-  workflow_dispatch:
+    - cron: '*/15 * * * *'  # every 15 minutes UTC
+  workflow_dispatch:        # manual trigger
 
 jobs:
   update-weather:
     runs-on: ubuntu-latest
 
     steps:
+      # Checkout repo on main branch, persist token for push
       - uses: actions/checkout@v3
         with:
           ref: main
           persist-credentials: true
 
-      - name: Setup Python
-        uses: actions/setup-python@v4
+      # Use system Python and cache pip dependencies
+      - name: Cache pip
+        uses: actions/cache@v3
         with:
-          python-version: '3.11'
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
 
       - name: Install dependencies
-        run: pip install requests
+        run: python3 -m pip install -r requirements.txt
 
+      # Run your weather fetch script
       - name: Fetch weather
-        run: python fetch_weather.py
+        run: python3 fetch_weather.py
 
+      # Configure git user for committing
       - name: Configure git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
+      # Commit only if there are changes
       - name: Commit changes
         run: |
           git add data/*.json
           git diff-index --quiet HEAD || git commit -m "Update weather data"
 
+      # Push updates to main branch
       - name: Push changes
         run: git push origin main
