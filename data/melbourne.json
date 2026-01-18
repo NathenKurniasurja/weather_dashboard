@@ -3,15 +3,9 @@
   "current_temp": 19.5,
   "current_windspeed": 2.9,
   "current_condition": 1,
-  "feels_like": 20.3,
+  "feels_like": 20.5,
   "today_sunset": "2026-01-19T20:42",
   "forecast_12h": [
-    {
-      "time": "2026-01-19T03:00",
-      "temperature": 19.8,
-      "precipitation_mm": 0.0,
-      "uv_index": 0.0
-    },
     {
       "time": "2026-01-19T04:00",
       "temperature": 19.5,
@@ -64,7 +58,7 @@
       "time": "2026-01-19T12:00",
       "temperature": 27.9,
       "precipitation_mm": 0.0,
-      "uv_index": 7.65
+      "uv_index": 7.55
     },
     {
       "time": "2026-01-19T13:00",
@@ -76,7 +70,13 @@
       "time": "2026-01-19T14:00",
       "temperature": 30.3,
       "precipitation_mm": 0.0,
-      "uv_index": 9.1
+      "uv_index": 9.0
+    },
+    {
+      "time": "2026-01-19T15:00",
+      "temperature": 30.7,
+      "precipitation_mm": 0.0,
+      "uv_index": 8.4
     }
   ]
 }
