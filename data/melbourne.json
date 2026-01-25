@@ -3,15 +3,9 @@
   "current_temp": 17.4,
   "current_windspeed": 4.4,
   "current_condition": 3,
-  "feels_like": 18.2,
+  "feels_like": 18.1,
   "today_sunset": "2026-01-26T20:37",
   "forecast_12h": [
-    {
-      "time": "2026-01-26T05:00",
-      "temperature": 17.3,
-      "precipitation_mm": 0.0,
-      "uv_index": 0.0
-    },
     {
       "time": "2026-01-26T06:00",
       "temperature": 17.4,
@@ -77,6 +71,12 @@
       "temperature": 30.6,
       "precipitation_mm": 0.0,
       "uv_index": 7.7
+    },
+    {
+      "time": "2026-01-26T17:00",
+      "temperature": 31.4,
+      "precipitation_mm": 0.0,
+      "uv_index": 6.15
     }
   ]
 }
