@@ -1,28 +1,22 @@
 {
   "city": "Melbourne",
-  "current_temp": 21.7,
-  "current_windspeed": 10.2,
+  "current_temp": 22.1,
+  "current_windspeed": 11.6,
   "current_condition": 3,
-  "feels_like": 22.9,
+  "feels_like": 23.1,
   "today_sunset": "2026-01-28T20:36",
   "forecast_12h": [
-    {
-      "time": "2026-01-28T09:00",
-      "temperature": 21.3,
-      "precipitation_mm": 0.0,
-      "uv_index": 1.1
-    },
     {
       "time": "2026-01-28T10:00",
       "temperature": 21.8,
       "precipitation_mm": 0.0,
-      "uv_index": 4.0
+      "uv_index": 3.85
     },
     {
       "time": "2026-01-28T11:00",
       "temperature": 22.4,
       "precipitation_mm": 0.0,
-      "uv_index": 5.95
+      "uv_index": 5.9
     },
     {
       "time": "2026-01-28T12:00",
@@ -34,37 +28,37 @@
       "time": "2026-01-28T13:00",
       "temperature": 22.0,
       "precipitation_mm": 0.0,
-      "uv_index": 8.65
+      "uv_index": 7.8
     },
     {
       "time": "2026-01-28T14:00",
       "temperature": 22.2,
       "precipitation_mm": 0.0,
-      "uv_index": 8.55
+      "uv_index": 9.0
     },
     {
       "time": "2026-01-28T15:00",
       "temperature": 22.1,
       "precipitation_mm": 0.0,
-      "uv_index": 8.15
+      "uv_index": 8.35
     },
     {
       "time": "2026-01-28T16:00",
       "temperature": 21.9,
       "precipitation_mm": 0.0,
-      "uv_index": 7.25
+      "uv_index": 7.3
     },
     {
       "time": "2026-01-28T17:00",
       "temperature": 20.9,
       "precipitation_mm": 0.0,
-      "uv_index": 5.8
+      "uv_index": 3.75
     },
     {
       "time": "2026-01-28T18:00",
       "temperature": 20.7,
       "precipitation_mm": 0.0,
-      "uv_index": 4.1
+      "uv_index": 2.0
     },
     {
       "time": "2026-01-28T19:00",
@@ -76,7 +70,13 @@
       "time": "2026-01-28T20:00",
       "temperature": 19.7,
       "precipitation_mm": 0.0,
-      "uv_index": 0.75
+      "uv_index": 0.65
+    },
+    {
+      "time": "2026-01-28T21:00",
+      "temperature": 19.2,
+      "precipitation_mm": 0.0,
+      "uv_index": 0.05
     }
   ]
 }
