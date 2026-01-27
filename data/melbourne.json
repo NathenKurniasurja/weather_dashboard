@@ -1,38 +1,38 @@
 {
   "city": "Melbourne",
-  "current_temp": 20.8,
-  "current_windspeed": 8.9,
+  "current_temp": 21.3,
+  "current_windspeed": 9.3,
   "current_condition": 3,
-  "feels_like": 22.6,
+  "feels_like": 22.1,
   "today_sunset": "2026-01-28T20:36",
   "forecast_12h": [
     {
       "time": "2026-01-28T08:00",
-      "temperature": 20.7,
+      "temperature": 21.0,
       "precipitation_mm": 0.0,
       "uv_index": 0.65
     },
     {
       "time": "2026-01-28T09:00",
-      "temperature": 21.2,
+      "temperature": 21.3,
       "precipitation_mm": 0.0,
       "uv_index": 1.1
     },
     {
       "time": "2026-01-28T10:00",
-      "temperature": 21.6,
+      "temperature": 21.8,
       "precipitation_mm": 0.0,
       "uv_index": 4.0
     },
     {
       "time": "2026-01-28T11:00",
-      "temperature": 21.7,
+      "temperature": 22.4,
       "precipitation_mm": 0.0,
       "uv_index": 5.95
     },
     {
       "time": "2026-01-28T12:00",
-      "temperature": 21.9,
+      "temperature": 21.8,
       "precipitation_mm": 0.0,
       "uv_index": 7.55
     },
@@ -44,37 +44,37 @@
     },
     {
       "time": "2026-01-28T14:00",
-      "temperature": 22.0,
+      "temperature": 22.2,
       "precipitation_mm": 0.0,
       "uv_index": 8.55
     },
     {
       "time": "2026-01-28T15:00",
-      "temperature": 22.4,
+      "temperature": 22.1,
       "precipitation_mm": 0.0,
       "uv_index": 8.15
     },
     {
       "time": "2026-01-28T16:00",
-      "temperature": 21.7,
+      "temperature": 21.9,
       "precipitation_mm": 0.0,
       "uv_index": 7.25
     },
     {
       "time": "2026-01-28T17:00",
-      "temperature": 21.1,
+      "temperature": 20.9,
       "precipitation_mm": 0.0,
       "uv_index": 5.8
     },
     {
       "time": "2026-01-28T18:00",
-      "temperature": 20.5,
+      "temperature": 20.7,
       "precipitation_mm": 0.0,
       "uv_index": 4.1
     },
     {
       "time": "2026-01-28T19:00",
-      "temperature": 20.0,
+      "temperature": 20.1,
       "precipitation_mm": 0.0,
       "uv_index": 2.1
     }
