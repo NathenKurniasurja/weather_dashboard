@@ -1,26 +1,20 @@
 {
   "city": "Melbourne",
-  "current_temp": 16.8,
-  "current_windspeed": 3.1,
+  "current_temp": 17.6,
+  "current_windspeed": 3.2,
   "current_condition": 2,
-  "feels_like": 17.9,
+  "feels_like": 18.1,
   "today_sunset": "2026-02-07T20:27",
   "forecast_12h": [
     {
-      "time": "2026-02-07T08:00",
-      "temperature": 15.7,
-      "precipitation_mm": 0.0,
-      "uv_index": 0.55
-    },
-    {
       "time": "2026-02-07T09:00",
-      "temperature": 17.0,
+      "temperature": 16.6,
       "precipitation_mm": 0.0,
       "uv_index": 1.85
     },
     {
       "time": "2026-02-07T10:00",
-      "temperature": 18.5,
+      "temperature": 18.4,
       "precipitation_mm": 0.0,
       "uv_index": 3.7
     },
@@ -32,13 +26,13 @@
     },
     {
       "time": "2026-02-07T12:00",
-      "temperature": 21.7,
+      "temperature": 21.8,
       "precipitation_mm": 0.0,
       "uv_index": 7.2
     },
     {
       "time": "2026-02-07T13:00",
-      "temperature": 22.7,
+      "temperature": 22.9,
       "precipitation_mm": 0.0,
       "uv_index": 8.25
     },
@@ -50,33 +44,39 @@
     },
     {
       "time": "2026-02-07T15:00",
-      "temperature": 24.7,
+      "temperature": 25.1,
       "precipitation_mm": 0.0,
       "uv_index": 8.4
     },
     {
       "time": "2026-02-07T16:00",
-      "temperature": 25.4,
+      "temperature": 26.1,
       "precipitation_mm": 0.0,
       "uv_index": 7.4
     },
     {
       "time": "2026-02-07T17:00",
-      "temperature": 24.9,
+      "temperature": 25.4,
       "precipitation_mm": 0.0,
       "uv_index": 5.85
     },
     {
       "time": "2026-02-07T18:00",
-      "temperature": 24.0,
+      "temperature": 24.1,
       "precipitation_mm": 0.0,
       "uv_index": 3.95
     },
     {
       "time": "2026-02-07T19:00",
-      "temperature": 22.9,
+      "temperature": 23.1,
       "precipitation_mm": 0.0,
       "uv_index": 2.1
+    },
+    {
+      "time": "2026-02-07T20:00",
+      "temperature": 21.9,
+      "precipitation_mm": 0.0,
+      "uv_index": 0.7
     }
   ]
 }
