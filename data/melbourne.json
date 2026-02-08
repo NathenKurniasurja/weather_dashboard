@@ -1,46 +1,40 @@
 {
   "city": "Melbourne",
-  "current_temp": 20.8,
-  "current_windspeed": 6.9,
+  "current_temp": 21.4,
+  "current_windspeed": 7.6,
   "current_condition": 3,
-  "feels_like": 20.6,
+  "feels_like": 21.9,
   "today_sunset": "2026-02-09T20:25",
   "forecast_12h": [
-    {
-      "time": "2026-02-09T09:00",
-      "temperature": 20.0,
-      "precipitation_mm": 0.0,
-      "uv_index": 0.6
-    },
     {
       "time": "2026-02-09T10:00",
       "temperature": 21.0,
       "precipitation_mm": 0.0,
-      "uv_index": 1.25
+      "uv_index": 1.1
     },
     {
       "time": "2026-02-09T11:00",
       "temperature": 21.6,
       "precipitation_mm": 0.0,
-      "uv_index": 1.6
+      "uv_index": 1.75
     },
     {
       "time": "2026-02-09T12:00",
       "temperature": 21.7,
       "precipitation_mm": 0.0,
-      "uv_index": 1.85
+      "uv_index": 2.1
     },
     {
       "time": "2026-02-09T13:00",
       "temperature": 21.6,
       "precipitation_mm": 0.0,
-      "uv_index": 2.3
+      "uv_index": 2.65
     },
     {
       "time": "2026-02-09T14:00",
       "temperature": 22.1,
       "precipitation_mm": 0.0,
-      "uv_index": 3.5
+      "uv_index": 6.15
     },
     {
       "time": "2026-02-09T15:00",
@@ -52,31 +46,37 @@
       "time": "2026-02-09T16:00",
       "temperature": 24.1,
       "precipitation_mm": 0.0,
-      "uv_index": 5.05
+      "uv_index": 6.9
     },
     {
       "time": "2026-02-09T17:00",
       "temperature": 24.2,
       "precipitation_mm": 0.0,
-      "uv_index": 4.85
+      "uv_index": 5.25
     },
     {
       "time": "2026-02-09T18:00",
       "temperature": 23.6,
       "precipitation_mm": 0.0,
-      "uv_index": 3.75
+      "uv_index": 3.7
     },
     {
       "time": "2026-02-09T19:00",
       "temperature": 22.5,
       "precipitation_mm": 0.0,
-      "uv_index": 2.0
+      "uv_index": 1.95
     },
     {
       "time": "2026-02-09T20:00",
       "temperature": 21.4,
       "precipitation_mm": 0.0,
-      "uv_index": 0.65
+      "uv_index": 0.55
+    },
+    {
+      "time": "2026-02-09T21:00",
+      "temperature": 20.2,
+      "precipitation_mm": 0.0,
+      "uv_index": 0.05
     }
   ]
 }
