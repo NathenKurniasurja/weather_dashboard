@@ -7,12 +7,6 @@
   "today_sunset": "2026-02-28T20:01",
   "forecast_12h": [
     {
-      "time": "2026-02-28T06:00",
-      "temperature": 19.1,
-      "precipitation_mm": 0.0,
-      "uv_index": 0.0
-    },
-    {
       "time": "2026-02-28T07:00",
       "temperature": 18.8,
       "precipitation_mm": 0.0,
@@ -77,6 +71,12 @@
       "temperature": 30.5,
       "precipitation_mm": 0.0,
       "uv_index": 4.1
+    },
+    {
+      "time": "2026-02-28T18:00",
+      "temperature": 30.3,
+      "precipitation_mm": 0.0,
+      "uv_index": 2.75
     }
   ]
 }
