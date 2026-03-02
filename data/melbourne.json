@@ -1,56 +1,50 @@
 {
   "city": "Melbourne",
-  "current_temp": 17.2,
-  "current_windspeed": 10.4,
+  "current_temp": 17.1,
+  "current_windspeed": 10.5,
   "current_condition": 3,
-  "feels_like": 16.2,
+  "feels_like": 16.1,
   "today_sunset": "2026-03-03T19:57",
   "forecast_12h": [
     {
-      "time": "2026-03-03T07:00",
-      "temperature": 17.2,
-      "precipitation_mm": 0.0,
-      "uv_index": 0.0
-    },
-    {
       "time": "2026-03-03T08:00",
-      "temperature": 17.2,
+      "temperature": 16.8,
       "precipitation_mm": 0.0,
       "uv_index": 0.05
     },
     {
       "time": "2026-03-03T09:00",
-      "temperature": 17.6,
+      "temperature": 17.3,
       "precipitation_mm": 0.0,
       "uv_index": 0.35
     },
     {
       "time": "2026-03-03T10:00",
-      "temperature": 18.1,
+      "temperature": 17.8,
       "precipitation_mm": 0.0,
       "uv_index": 0.95
     },
     {
       "time": "2026-03-03T11:00",
-      "temperature": 18.4,
+      "temperature": 18.1,
       "precipitation_mm": 0.0,
       "uv_index": 2.0
     },
     {
       "time": "2026-03-03T12:00",
-      "temperature": 18.9,
+      "temperature": 18.5,
       "precipitation_mm": 0.0,
       "uv_index": 5.4
     },
     {
       "time": "2026-03-03T13:00",
-      "temperature": 19.5,
+      "temperature": 18.7,
       "precipitation_mm": 0.0,
       "uv_index": 7.35
     },
     {
       "time": "2026-03-03T14:00",
-      "temperature": 20.1,
+      "temperature": 19.7,
       "precipitation_mm": 0.0,
       "uv_index": 7.75
     },
@@ -62,7 +56,7 @@
     },
     {
       "time": "2026-03-03T16:00",
-      "temperature": 19.7,
+      "temperature": 19.9,
       "precipitation_mm": 0.0,
       "uv_index": 6.4
     },
@@ -74,9 +68,15 @@
     },
     {
       "time": "2026-03-03T18:00",
-      "temperature": 18.9,
+      "temperature": 19.0,
       "precipitation_mm": 0.0,
       "uv_index": 3.05
+    },
+    {
+      "time": "2026-03-03T19:00",
+      "temperature": 18.2,
+      "precipitation_mm": 0.0,
+      "uv_index": 1.35
     }
   ]
 }
