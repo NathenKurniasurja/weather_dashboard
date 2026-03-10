@@ -1,17 +1,11 @@
 {
   "city": "Melbourne",
-  "current_temp": 21.3,
-  "current_windspeed": 4.1,
-  "current_condition": 0,
-  "feels_like": 22.2,
-  "today_sunset": "2026-03-10T19:47",
+  "current_temp": 19.9,
+  "current_windspeed": 3.3,
+  "current_condition": 2,
+  "feels_like": 21.5,
+  "today_sunset": "2026-03-11T19:46",
   "forecast_12h": [
-    {
-      "time": "2026-03-10T23:00",
-      "temperature": 21.3,
-      "precipitation_mm": 0.0,
-      "uv_index": 0.0
-    },
     {
       "time": "2026-03-11T00:00",
       "temperature": 20.4,
@@ -77,6 +71,12 @@
       "temperature": 23.9,
       "precipitation_mm": 0.1,
       "uv_index": 1.2
+    },
+    {
+      "time": "2026-03-11T11:00",
+      "temperature": 25.5,
+      "precipitation_mm": 0.0,
+      "uv_index": 2.1
     }
   ]
 }
