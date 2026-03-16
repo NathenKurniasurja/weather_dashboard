@@ -1,80 +1,80 @@
 {
   "city": "Melbourne",
   "current_temp": 19.1,
-  "current_windspeed": 4.5,
+  "current_windspeed": 2.2,
   "current_condition": 61,
-  "feels_like": 20.4,
+  "feels_like": 21.3,
   "today_sunset": "2026-03-16T19:38",
   "forecast_12h": [
     {
-      "time": "2026-03-16T19:00",
-      "temperature": 19.2,
-      "precipitation_mm": 0.7,
-      "uv_index": 0.1
-    },
-    {
       "time": "2026-03-16T20:00",
-      "temperature": 18.8,
-      "precipitation_mm": 2.0,
+      "temperature": 19.3,
+      "precipitation_mm": 1.6,
       "uv_index": 0.0
     },
     {
       "time": "2026-03-16T21:00",
-      "temperature": 18.5,
-      "precipitation_mm": 3.3,
+      "temperature": 18.9,
+      "precipitation_mm": 2.8,
       "uv_index": 0.0
     },
     {
       "time": "2026-03-16T22:00",
-      "temperature": 18.4,
-      "precipitation_mm": 4.0,
+      "temperature": 18.8,
+      "precipitation_mm": 2.8,
       "uv_index": 0.0
     },
     {
       "time": "2026-03-16T23:00",
-      "temperature": 18.4,
-      "precipitation_mm": 1.4,
+      "temperature": 18.8,
+      "precipitation_mm": 0.9,
       "uv_index": 0.0
     },
     {
       "time": "2026-03-17T00:00",
-      "temperature": 18.4,
-      "precipitation_mm": 0.3,
+      "temperature": 18.7,
+      "precipitation_mm": 0.0,
       "uv_index": 0.0
     },
     {
       "time": "2026-03-17T01:00",
-      "temperature": 18.2,
-      "precipitation_mm": 0.2,
+      "temperature": 18.5,
+      "precipitation_mm": 0.0,
       "uv_index": 0.0
     },
     {
       "time": "2026-03-17T02:00",
-      "temperature": 18.0,
+      "temperature": 18.3,
       "precipitation_mm": 0.0,
       "uv_index": 0.0
     },
     {
       "time": "2026-03-17T03:00",
-      "temperature": 18.0,
+      "temperature": 18.2,
       "precipitation_mm": 0.0,
       "uv_index": 0.0
     },
     {
       "time": "2026-03-17T04:00",
-      "temperature": 17.9,
+      "temperature": 18.1,
       "precipitation_mm": 0.0,
       "uv_index": 0.0
     },
     {
       "time": "2026-03-17T05:00",
-      "temperature": 17.8,
+      "temperature": 18.0,
       "precipitation_mm": 0.0,
       "uv_index": 0.0
     },
     {
       "time": "2026-03-17T06:00",
-      "temperature": 17.6,
+      "temperature": 17.8,
+      "precipitation_mm": 0.0,
+      "uv_index": 0.0
+    },
+    {
+      "time": "2026-03-17T07:00",
+      "temperature": 17.7,
       "precipitation_mm": 0.0,
       "uv_index": 0.0
     }
