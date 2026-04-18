@@ -7,12 +7,6 @@
   "today_sunset": "2026-04-19T17:48",
   "forecast_12h": [
     {
-      "time": "2026-04-19T05:00",
-      "temperature": 5.1,
-      "precipitation_mm": 0.0,
-      "uv_index": 0.0
-    },
-    {
       "time": "2026-04-19T06:00",
       "temperature": 4.7,
       "precipitation_mm": 0.0,
@@ -77,6 +71,12 @@
       "temperature": 19.6,
       "precipitation_mm": 0.0,
       "uv_index": 2.25
+    },
+    {
+      "time": "2026-04-19T17:00",
+      "temperature": 18.8,
+      "precipitation_mm": 0.0,
+      "uv_index": 0.95
     }
   ]
 }
