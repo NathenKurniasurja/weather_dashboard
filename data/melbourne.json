@@ -1,44 +1,26 @@
 {
   "city": "Melbourne",
-  "current_temp": 20.4,
-  "current_windspeed": 6.4,
-  "current_condition": 1,
-  "feels_like": 24.4,
+  "current_temp": 18.0,
+  "current_windspeed": 2.9,
+  "current_condition": 0,
+  "feels_like": 18.7,
   "today_sunset": "2026-04-29T17:35",
   "forecast_12h": [
     {
-      "time": "2026-04-29T16:00",
-      "temperature": 20.9,
-      "precipitation_mm": 0.0,
-      "uv_index": 1.9
-    },
-    {
-      "time": "2026-04-29T17:00",
-      "temperature": 19.9,
-      "precipitation_mm": 0.0,
-      "uv_index": 0.75
-    },
-    {
-      "time": "2026-04-29T18:00",
-      "temperature": 18.5,
-      "precipitation_mm": 0.0,
-      "uv_index": 0.05
-    },
-    {
       "time": "2026-04-29T19:00",
-      "temperature": 17.6,
+      "temperature": 18.0,
       "precipitation_mm": 0.0,
       "uv_index": 0.0
     },
     {
       "time": "2026-04-29T20:00",
-      "temperature": 16.7,
+      "temperature": 17.0,
       "precipitation_mm": 0.0,
       "uv_index": 0.0
     },
     {
       "time": "2026-04-29T21:00",
-      "temperature": 16.0,
+      "temperature": 16.4,
       "precipitation_mm": 0.0,
       "uv_index": 0.0
     },
@@ -56,13 +38,13 @@
     },
     {
       "time": "2026-04-30T00:00",
-      "temperature": 14.5,
+      "temperature": 14.4,
       "precipitation_mm": 0.0,
       "uv_index": 0.0
     },
     {
       "time": "2026-04-30T01:00",
-      "temperature": 14.1,
+      "temperature": 13.9,
       "precipitation_mm": 0.0,
       "uv_index": 0.0
     },
@@ -74,7 +56,25 @@
     },
     {
       "time": "2026-04-30T03:00",
-      "temperature": 14.0,
+      "temperature": 13.9,
+      "precipitation_mm": 0.0,
+      "uv_index": 0.0
+    },
+    {
+      "time": "2026-04-30T04:00",
+      "temperature": 13.9,
+      "precipitation_mm": 0.0,
+      "uv_index": 0.0
+    },
+    {
+      "time": "2026-04-30T05:00",
+      "temperature": 14.4,
+      "precipitation_mm": 0.0,
+      "uv_index": 0.0
+    },
+    {
+      "time": "2026-04-30T06:00",
+      "temperature": 15.1,
       "precipitation_mm": 0.0,
       "uv_index": 0.0
     }
