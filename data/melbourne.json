@@ -1,26 +1,14 @@
 {
   "city": "Melbourne",
-  "current_temp": 13.1,
-  "current_windspeed": 18.3,
-  "current_condition": 3,
-  "feels_like": 9.4,
+  "current_temp": 13.2,
+  "current_windspeed": 19.8,
+  "current_condition": 2,
+  "feels_like": 9.2,
   "today_sunset": "2026-05-08T17:26",
   "forecast_12h": [
     {
-      "time": "2026-05-08T03:00",
-      "temperature": 13.1,
-      "precipitation_mm": 0.0,
-      "uv_index": 0.0
-    },
-    {
-      "time": "2026-05-08T04:00",
-      "temperature": 13.2,
-      "precipitation_mm": 0.1,
-      "uv_index": 0.0
-    },
-    {
       "time": "2026-05-08T05:00",
-      "temperature": 13.4,
+      "temperature": 13.2,
       "precipitation_mm": 0.0,
       "uv_index": 0.0
     },
@@ -32,51 +20,63 @@
     },
     {
       "time": "2026-05-08T07:00",
-      "temperature": 13.1,
+      "temperature": 13.2,
       "precipitation_mm": 0.0,
       "uv_index": 0.0
     },
     {
       "time": "2026-05-08T08:00",
       "temperature": 13.4,
-      "precipitation_mm": 0.0,
+      "precipitation_mm": 0.1,
       "uv_index": 0.1
     },
     {
       "time": "2026-05-08T09:00",
-      "temperature": 14.1,
-      "precipitation_mm": 0.0,
+      "temperature": 13.8,
+      "precipitation_mm": 0.1,
       "uv_index": 0.25
     },
     {
       "time": "2026-05-08T10:00",
-      "temperature": 14.9,
+      "temperature": 15.0,
       "precipitation_mm": 0.1,
       "uv_index": 1.8
     },
     {
       "time": "2026-05-08T11:00",
-      "temperature": 15.6,
+      "temperature": 15.4,
       "precipitation_mm": 0.1,
       "uv_index": 0.75
     },
     {
       "time": "2026-05-08T12:00",
       "temperature": 15.9,
-      "precipitation_mm": 0.3,
+      "precipitation_mm": 0.1,
       "uv_index": 1.8
     },
     {
       "time": "2026-05-08T13:00",
-      "temperature": 16.1,
-      "precipitation_mm": 0.5,
+      "temperature": 15.9,
+      "precipitation_mm": 0.0,
       "uv_index": 2.2
     },
     {
       "time": "2026-05-08T14:00",
-      "temperature": 16.0,
-      "precipitation_mm": 0.0,
+      "temperature": 15.8,
+      "precipitation_mm": 0.4,
       "uv_index": 2.35
+    },
+    {
+      "time": "2026-05-08T15:00",
+      "temperature": 15.6,
+      "precipitation_mm": 0.3,
+      "uv_index": 1.5
+    },
+    {
+      "time": "2026-05-08T16:00",
+      "temperature": 15.1,
+      "precipitation_mm": 0.2,
+      "uv_index": 0.6
     }
   ]
 }
