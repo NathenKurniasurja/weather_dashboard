@@ -1,17 +1,11 @@
 {
   "city": "Melbourne",
-  "current_temp": 18.0,
-  "current_windspeed": 12.2,
-  "current_condition": 1,
-  "feels_like": 16.1,
+  "current_temp": 17.4,
+  "current_windspeed": 12.7,
+  "current_condition": 2,
+  "feels_like": 15.4,
   "today_sunset": "2026-05-16T17:19",
   "forecast_12h": [
-    {
-      "time": "2026-05-16T19:00",
-      "temperature": 18.0,
-      "precipitation_mm": 0.0,
-      "uv_index": 0.0
-    },
     {
       "time": "2026-05-16T20:00",
       "temperature": 17.5,
@@ -20,25 +14,25 @@
     },
     {
       "time": "2026-05-16T21:00",
-      "temperature": 17.1,
+      "temperature": 17.2,
       "precipitation_mm": 0.0,
       "uv_index": 0.0
     },
     {
       "time": "2026-05-16T22:00",
-      "temperature": 16.6,
+      "temperature": 16.9,
       "precipitation_mm": 0.0,
       "uv_index": 0.0
     },
     {
       "time": "2026-05-16T23:00",
-      "temperature": 15.6,
+      "temperature": 16.5,
       "precipitation_mm": 0.0,
       "uv_index": 0.0
     },
     {
       "time": "2026-05-17T00:00",
-      "temperature": 15.6,
+      "temperature": 15.9,
       "precipitation_mm": 0.0,
       "uv_index": 0.0
     },
@@ -50,32 +44,38 @@
     },
     {
       "time": "2026-05-17T02:00",
-      "temperature": 15.1,
-      "precipitation_mm": 0.1,
+      "temperature": 15.3,
+      "precipitation_mm": 0.0,
       "uv_index": 0.0
     },
     {
       "time": "2026-05-17T03:00",
-      "temperature": 14.9,
-      "precipitation_mm": 0.5,
+      "temperature": 15.2,
+      "precipitation_mm": 0.3,
       "uv_index": 0.0
     },
     {
       "time": "2026-05-17T04:00",
-      "temperature": 14.8,
-      "precipitation_mm": 0.6,
+      "temperature": 15.4,
+      "precipitation_mm": 0.4,
       "uv_index": 0.0
     },
     {
       "time": "2026-05-17T05:00",
-      "temperature": 14.4,
-      "precipitation_mm": 0.6,
+      "temperature": 15.2,
+      "precipitation_mm": 0.3,
       "uv_index": 0.0
     },
     {
       "time": "2026-05-17T06:00",
-      "temperature": 14.3,
-      "precipitation_mm": 0.6,
+      "temperature": 15.1,
+      "precipitation_mm": 0.3,
+      "uv_index": 0.0
+    },
+    {
+      "time": "2026-05-17T07:00",
+      "temperature": 14.8,
+      "precipitation_mm": 0.2,
       "uv_index": 0.0
     }
   ]
