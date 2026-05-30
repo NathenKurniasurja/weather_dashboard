@@ -1,28 +1,22 @@
 {
   "city": "Melbourne",
-  "current_temp": 10.1,
-  "current_windspeed": 11.8,
+  "current_temp": 11.5,
+  "current_windspeed": 12.8,
   "current_condition": 0,
-  "feels_like": 6.9,
+  "feels_like": 8.4,
   "today_sunset": "2026-05-31T17:10",
   "forecast_12h": [
-    {
-      "time": "2026-05-31T08:00",
-      "temperature": 9.6,
-      "precipitation_mm": 0.0,
-      "uv_index": 0.0
-    },
     {
       "time": "2026-05-31T09:00",
       "temperature": 10.9,
       "precipitation_mm": 0.0,
-      "uv_index": 0.45
+      "uv_index": 0.5
     },
     {
       "time": "2026-05-31T10:00",
       "temperature": 12.1,
       "precipitation_mm": 0.0,
-      "uv_index": 1.25
+      "uv_index": 1.4
     },
     {
       "time": "2026-05-31T11:00",
@@ -34,37 +28,37 @@
       "time": "2026-05-31T12:00",
       "temperature": 13.9,
       "precipitation_mm": 0.0,
-      "uv_index": 2.75
+      "uv_index": 2.45
     },
     {
       "time": "2026-05-31T13:00",
       "temperature": 14.4,
       "precipitation_mm": 0.0,
-      "uv_index": 1.5
+      "uv_index": 1.45
     },
     {
       "time": "2026-05-31T14:00",
       "temperature": 14.5,
       "precipitation_mm": 0.0,
-      "uv_index": 1.2
+      "uv_index": 1.25
     },
     {
       "time": "2026-05-31T15:00",
       "temperature": 14.6,
       "precipitation_mm": 0.0,
-      "uv_index": 1.4
+      "uv_index": 1.45
     },
     {
       "time": "2026-05-31T16:00",
       "temperature": 13.8,
       "precipitation_mm": 0.0,
-      "uv_index": 0.85
+      "uv_index": 1.1
     },
     {
       "time": "2026-05-31T17:00",
       "temperature": 12.9,
       "precipitation_mm": 0.0,
-      "uv_index": 0.1
+      "uv_index": 0.25
     },
     {
       "time": "2026-05-31T18:00",
@@ -75,6 +69,12 @@
     {
       "time": "2026-05-31T19:00",
       "temperature": 11.3,
+      "precipitation_mm": 0.0,
+      "uv_index": 0.0
+    },
+    {
+      "time": "2026-05-31T20:00",
+      "temperature": 10.6,
       "precipitation_mm": 0.0,
       "uv_index": 0.0
     }
