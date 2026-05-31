@@ -1,23 +1,11 @@
 {
   "city": "Melbourne",
-  "current_temp": 7.6,
-  "current_windspeed": 7.4,
-  "current_condition": 1,
-  "feels_like": 6.3,
+  "current_temp": 7.2,
+  "current_windspeed": 9.8,
+  "current_condition": 2,
+  "feels_like": 5.3,
   "today_sunset": "2026-06-01T17:09",
   "forecast_12h": [
-    {
-      "time": "2026-06-01T04:00",
-      "temperature": 7.8,
-      "precipitation_mm": 0.0,
-      "uv_index": 0.0
-    },
-    {
-      "time": "2026-06-01T05:00",
-      "temperature": 7.6,
-      "precipitation_mm": 0.0,
-      "uv_index": 0.0
-    },
     {
       "time": "2026-06-01T06:00",
       "temperature": 7.2,
@@ -26,31 +14,31 @@
     },
     {
       "time": "2026-06-01T07:00",
-      "temperature": 7.1,
+      "temperature": 7.4,
       "precipitation_mm": 0.0,
       "uv_index": 0.0
     },
     {
       "time": "2026-06-01T08:00",
-      "temperature": 7.3,
+      "temperature": 7.4,
       "precipitation_mm": 0.0,
       "uv_index": 0.05
     },
     {
       "time": "2026-06-01T09:00",
-      "temperature": 8.2,
+      "temperature": 8.4,
       "precipitation_mm": 0.0,
       "uv_index": 0.55
     },
     {
       "time": "2026-06-01T10:00",
-      "temperature": 9.1,
+      "temperature": 10.1,
       "precipitation_mm": 0.0,
       "uv_index": 1.35
     },
     {
       "time": "2026-06-01T11:00",
-      "temperature": 10.4,
+      "temperature": 11.4,
       "precipitation_mm": 0.0,
       "uv_index": 1.65
     },
@@ -62,21 +50,33 @@
     },
     {
       "time": "2026-06-01T13:00",
-      "temperature": 11.9,
+      "temperature": 12.4,
       "precipitation_mm": 0.1,
       "uv_index": 0.35
     },
     {
       "time": "2026-06-01T14:00",
-      "temperature": 11.6,
+      "temperature": 12.1,
       "precipitation_mm": 0.1,
       "uv_index": 0.7
     },
     {
       "time": "2026-06-01T15:00",
-      "temperature": 11.8,
+      "temperature": 11.6,
       "precipitation_mm": 1.5,
       "uv_index": 0.3
+    },
+    {
+      "time": "2026-06-01T16:00",
+      "temperature": 11.6,
+      "precipitation_mm": 1.6,
+      "uv_index": 0.15
+    },
+    {
+      "time": "2026-06-01T17:00",
+      "temperature": 11.7,
+      "precipitation_mm": 0.0,
+      "uv_index": 0.05
     }
   ]
 }
