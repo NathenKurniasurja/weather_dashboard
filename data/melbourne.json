@@ -1,80 +1,80 @@
 {
   "city": "Melbourne",
-  "current_temp": 14.8,
-  "current_windspeed": 19.6,
-  "current_condition": 3,
-  "feels_like": 11.1,
+  "current_temp": 18.2,
+  "current_windspeed": 19.4,
+  "current_condition": 1,
+  "feels_like": 15.0,
   "today_sunset": "2026-06-12T17:07",
   "forecast_12h": [
     {
-      "time": "2026-06-12T09:00",
-      "temperature": 14.2,
-      "precipitation_mm": 0.0,
-      "uv_index": 0.5
-    },
-    {
-      "time": "2026-06-12T10:00",
-      "temperature": 15.0,
-      "precipitation_mm": 0.0,
-      "uv_index": 1.35
-    },
-    {
-      "time": "2026-06-12T11:00",
-      "temperature": 15.8,
-      "precipitation_mm": 0.0,
-      "uv_index": 2.1
-    },
-    {
-      "time": "2026-06-12T12:00",
-      "temperature": 16.5,
-      "precipitation_mm": 0.0,
-      "uv_index": 2.45
-    },
-    {
-      "time": "2026-06-12T13:00",
-      "temperature": 17.3,
-      "precipitation_mm": 0.0,
-      "uv_index": 2.75
-    },
-    {
       "time": "2026-06-12T14:00",
-      "temperature": 17.8,
+      "temperature": 17.9,
       "precipitation_mm": 0.0,
       "uv_index": 2.35
     },
     {
       "time": "2026-06-12T15:00",
-      "temperature": 18.1,
+      "temperature": 18.2,
       "precipitation_mm": 0.0,
       "uv_index": 1.7
     },
     {
       "time": "2026-06-12T16:00",
-      "temperature": 17.8,
+      "temperature": 17.9,
       "precipitation_mm": 0.0,
       "uv_index": 0.95
     },
     {
       "time": "2026-06-12T17:00",
-      "temperature": 16.9,
+      "temperature": 17.1,
       "precipitation_mm": 0.0,
       "uv_index": 0.25
     },
     {
       "time": "2026-06-12T18:00",
-      "temperature": 16.5,
+      "temperature": 16.6,
       "precipitation_mm": 0.0,
       "uv_index": 0.0
     },
     {
       "time": "2026-06-12T19:00",
-      "temperature": 15.9,
+      "temperature": 16.1,
       "precipitation_mm": 0.0,
       "uv_index": 0.0
     },
     {
       "time": "2026-06-12T20:00",
-      "temperature": 15.6,
+      "temperature": 16.0,
+      "precipitation_mm": 0.0,
+      "uv_index": 0.0
+    },
+    {
+      "time": "2026-06-12T21:00",
+      "temperature": 15.8,
+      "precipitation_mm": 0.0,
+      "uv_index": 0.0
+    },
+    {
+      "time": "2026-06-12T22:00",
+      "temperature": 15.2,
+      "precipitation_mm": 0.0,
+      "uv_index": 0.0
+    },
+    {
+      "time": "2026-06-12T23:00",
+      "temperature": 15.2,
+      "precipitation_mm": 0.0,
+      "uv_index": 0.0
+    },
+    {
+      "time": "2026-06-13T00:00",
+      "temperature": 15.3,
+      "precipitation_mm": 0.0,
+      "uv_index": 0.0
+    },
+    {
+      "time": "2026-06-13T01:00",
+      "temperature": 15.1,
       "precipitation_mm": 0.0,
       "uv_index": 0.0
     }
